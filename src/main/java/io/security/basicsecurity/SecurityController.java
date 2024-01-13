@@ -11,4 +11,9 @@ public class SecurityController {
         return "home";
     }
 
+    @GetMapping("/login")
+    public String login() {
+        return "login";
+    }
+
 }
